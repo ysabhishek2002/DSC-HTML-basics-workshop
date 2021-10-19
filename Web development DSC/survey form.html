@@ -3,17 +3,17 @@
         <head> 
             <link rel="icon" href="https://th.bing.com/th/id/OIP.wHkmK-GfN0kx6p94p1tfAAHaHa?pid=ImgDet&rs=1">
             <title> Survey Form </title>
+            <link rel="stylesheet" href="surveyformcss.css">
+
         </head>
         
 
         <body>
-          <div style="background-color: cornsilk; border: 1mm solid black; width: 20cm; position: relative; left: 20%;">
+          <div class="div1" style="border: 1mm solid black; width: 20cm; position: relative; left: 20%;">
+            <p style="padding-left: 4cm;"> <u>DSC Web Development survey form</u></p>
             <form style="margin-left: 6cm;">
-                 <!-- <center> -->
-                    <h1 style="color: rgb(243, 6, 6); margin-left: -2cm;"> <u>DSC Web Development survey form</u></h1>
-                 <!-- </center> -->
 
-                <label > Name: </label><br>
+                <label> Name: </label><br>
                 <input style=" width: 8cm;" type="text" id="name" placeholder="Enter your name">
                 <br> <br>
 
@@ -27,7 +27,8 @@
                 <br> <br>
 
                 <label > Semester: </label><br>
-                <select style="width: 8.2cm;" type="select" id="sem" placeholder="Choose your Semester">    
+                <select style="width: 8.2cm;" type="select" id="sem" placeholder="Choose your Semester">
+                <option> choose your semester </option>    
                 <option>  2nd Semester </option>
                 <option>  3rd Semester </option>
                 <option>  4th Semester </option>
