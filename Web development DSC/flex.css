@@ -1,0 +1,42 @@
+.flex-container>div{
+    text-align: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    border: 0.5mm solid royalblue;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.body123{
+    display: flex;
+    justify-content: center;
+}
+.body123>div{
+    width: 3cm;
+    height: 0.8cm;
+    text-align: center;
+}
+
+.body1{
+    display: flex;
+    justify-content: center;
+}
+.body1>div{
+    width: 3cm;
+    height: 0.8cm;
+    text-align: center;
+}
+
+.header{
+    font-size: 1cm;
+    text-align: center;
+
+
+}
